@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
     <title>Document</title>
 </head>
 <body>
@@ -39,15 +40,15 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-5">
-                    <div class="main-img">
+                    <div class="main-img wow fadeInDown " data-wow-delay="0.1s">
                         <img src="img/3.png" alt="">
                     </div>
                 </div>
                 <div class="col-7">
                     <div class="main-text">
-                        <h1 class="main-text__title">Производство упаковки из гофрокартона</h1>
-                        <div class="main-text__subtitle">с доставкой по всей Росси</div>
-                        <div class="main-text__form">
+                        <h1 class="main-text__title wow fadeInDown " data-wow-delay="0.2s">Производство упаковки из гофрокартона</h1>
+                        <div class="main-text__subtitle wow fadeInDown " data-wow-delay="0.2s">с доставкой по всей Росси</div>
+                        <div class="main-text__form wow fadeInDown " data-wow-delay="0.3s">
                             <div class="form-title">
                                 Получите индивидуальное предложение
                                 на производство и поставку гофропродукции
@@ -107,7 +108,7 @@
                 </div>
             </div>
             <div class="features-blocks">
-                <div class="features-block">
+                <div class="features-block wow fadeInUp" data-wow-delay="0.1s">
                     <div class="features-block__img">
                         <img src="img/6.png" alt="">
                     </div>
@@ -116,7 +117,7 @@
                         <div class="features-block__descr">4 технологические линии способны выполнить любой сложности</div>
                     </div>
                 </div>
-                <div class="features-block">
+                <div class="features-block wow fadeInUp" data-wow-delay="0.2s">
                     <div class="features-block__img">
                         <img src="img/7.png" alt="">
                     </div>
@@ -125,7 +126,7 @@
                         <div class="features-block__descr">Бесплатно делаем образцы гофроупаковки - это помогает заранее увидеть упаковку</div>
                     </div>
                 </div>
-                <div class="features-block">
+                <div class="features-block wow fadeInUp" data-wow-delay="0.3s">
                     <div class="features-block__img">
                         <img src="img/8.png" alt="">
                     </div>
@@ -134,7 +135,7 @@
                         <div class="features-block__descr">Собственная лаборатория контролирует качество на каждом этапе производства</div>
                     </div>
                 </div>
-                <div class="features-block">
+                <div class="features-block wow fadeInUp" data-wow-delay="0.4s">
                     <div class="features-block__img">
                         <img src="img/9.png" alt="">
                     </div>
@@ -143,7 +144,7 @@
                         <div class="features-block__descr">Можем хранить запас гофропродукции на своих складах и поставлять его партиям</div>
                     </div>
                 </div>
-                <div class="features-block">
+                <div class="features-block wow fadeInUp" data-wow-delay="0.5s">
                     <div class="features-block__img">
                         <img src="img/10.png" alt="">
                     </div>
@@ -152,7 +153,7 @@
                         <div class="features-block__descr">Возможно нанесение вашего  логотипа, текста или манипуляционных знаков</div>
                     </div>
                 </div>
-                <div class="features-block">
+                <div class="features-block wow fadeInUp" data-wow-delay="0.6s">
                     <div class="features-block__img">
                         <img src="img/11.png" alt="">
                     </div>
@@ -166,12 +167,12 @@
     </section>
     <section class="products">
         <div class="container">
-            <h2 class="section-title">
+            <h2 class="section-title wow fadeInUp">
                 наша Продукция
             </h2>
             <div class="row">
                 <div class="col-6">
-                    <div class="products-block">
+                    <div class="products-block wow fadeInDown " data-wow-delay="0.1s">
                         <img class="products-block__img" src="img/12.png" alt="">
                         <div class="products-block__title">
                             Гофрокороб 4-х клапанный 
@@ -180,7 +181,7 @@
                     </div>
                 </div>
                 <div class="col-6">
-                    <div class="products-block">
+                    <div class="products-block wow fadeInDown " data-wow-delay="0.2s">
                         <img class="products-block__img" src="img/13.png" alt="">
                         <div class="products-block__title">
                             Гофролоток 
@@ -191,7 +192,7 @@
             </div>
             <div class="row">
                 <div class="col-6">
-                    <div class="products-block">
+                    <div class="products-block wow fadeInDown " data-wow-delay="0.3s">
                         <img class="products-block__img" src="img/14.png" alt="">
                         <div class="products-block__title">
                             Гофрокороб самосборный (сложная высечка) 
@@ -200,7 +201,7 @@
                     </div>
                 </div>
                 <div class="col-6">
-                    <div class="products-block">
+                    <div class="products-block wow fadeInDown " data-wow-delay="0.4s">
                         <img class="products-block__img" src="img/15.png" alt="">
                         <div class="products-block__title">
                             Листовой гофрокартон
@@ -213,5 +214,9 @@
     </section>
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/jquery.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
 </body>
 </html>
