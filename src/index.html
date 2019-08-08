@@ -10,41 +10,28 @@
     <link rel="stylesheet" href="css/animate.css">
     <title>Document</title>
 </head>
-<body>
-    <div class="hat-site">
-            <div class="container">
-                <div class="section_menu">
-                    <a href="#main-text">О компании</a>
-                    <a href="#numbers">преимущества</a>
-                    <a href="#section-title">производство</a>
-                    <a href="#offer">склад</a>
-                    <a href="#production">Продукция</a>
-                    <a href="#container__text">наши клиенты</a>
-                    <a href="">Сертификаты</a>
-                    <a href="">Отзывы</a>
-                    <a href="">контакты</a>
-                </div>
-            </div>
-    </div>
+<body> 
     <header class="header">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-4">
+                <div class="col-3 col-md-4">
                     <div class="header-logo">
-                        <img src="img/1.png" alt="">
+                        
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-9 col-md-8">
                     <div class="header-contacts">
-                        <div class="header-contacts__phone">
-                            8 (347) 271-54-28
-                        </div>
-                        <div class="header-contacts__phone">
-                            8 (937) 363-30-00
+                        <div class="header-contacts__phones">
+                            <div class="header-contacts__phone">
+                                8 (347) 271-54-28
+                            </div>
+                            <div class="header-contacts__phone">
+                                8 (937) 363-30-00
+                            </div>
                         </div>
                         <button class="header-cantacts__button button">
                             <img src="img/2.png" alt="">
-                            Заказать звонок
+                            <span class="hidden-mobile">Заказать звонок</span>
                         </button>
                     </div>
                 </div>
@@ -54,12 +41,12 @@
     <section class="main dark-bg">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-5">
-                    <div class="main-img wow fadeInDown " data-wow-delay="0.1s">
+                <div class="col-12 col-md-5">
+                    <div class="main-img wow fadeInDown hidden-mobile" data-wow-delay="0.1s">
                         <img src="img/3.png" alt="">
                     </div>
                 </div>
-                <div class="col-7">
+                <div class="col-12 col-md-7">
                     <div class="main-text">
                         <h1 id="main-text" class="main-text__title wow fadeInDown " data-wow-delay="0.2s">Производство упаковки из гофрокартона</h1>
                         <div class="main-text__subtitle wow fadeInDown " data-wow-delay="0.2s">с доставкой по всей Росси</div>
@@ -186,7 +173,7 @@
                 наша Продукция
             </h2>
             <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                     <div class="products-block wow fadeInDown " data-wow-delay="0.1s">
                         <img class="products-block__img" src="img/12.png" alt="">
                         <div class="products-block__title">
@@ -195,7 +182,7 @@
                         <div class="products-block__buttons"><button class="button button-0 products-block__button">Подробнее</button><button class="button">Получить расчет</button></div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                     <div class="products-block wow fadeInDown " data-wow-delay="0.2s">
                         <img class="products-block__img" src="img/13.png" alt="">
                         <div class="products-block__title">
@@ -206,7 +193,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                     <div class="products-block wow fadeInDown " data-wow-delay="0.3s">
                         <img class="products-block__img" src="img/14.png" alt="">
                         <div class="products-block__title">
@@ -215,7 +202,7 @@
                         <div class="products-block__buttons"><button class="button button-0 products-block__button">Подробнее</button><button class="button">Получить расчет</button></div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                     <div class="products-block wow fadeInDown " data-wow-delay="0.4s">
                         <img class="products-block__img" src="img/15.png" alt="">
                         <div class="products-block__title">
@@ -247,8 +234,8 @@
     <section id="production" class="production">
         <div class="container">
             <div class="row">
-                <div class="col-7">
-                    <div class="production-slider_top">
+                <div class="col-12 col-md-7">
+                    <div class="production-slider_top hidden-mobile">
                         <img src="img/18.png" alt="">
                         <img src="img/19.png" alt="">
                         <img src="img/19.png" alt="">
@@ -256,7 +243,7 @@
                         <img src="img/19.png" alt="">
                         <img src="img/19.png" alt="">
                     </div>
-                    <div class="production-slider_bottom">
+                    <div class="production-slider_bottom hidden-mobile">
                         <img src="img/19.png" alt="">
                         <img src="img/19.png" alt="">
                         <img src="img/19.png" alt="">
@@ -265,7 +252,7 @@
                         <img src="img/19.png" alt="">
                     </div>
                 </div>
-                <div class="col-5">
+                <div class="col-12 col-md-5">
                     <div class="production-text">
                         <div class="production-text__title">
                             Производство
@@ -328,6 +315,6 @@
 <script src="js/wow.min.js"></script>
 <script>
 new WOW().init();
-</script>
+</script> 
 </body>
 </html>
